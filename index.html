@@ -1,0 +1,1121 @@
+<!doctype html>
+
+<html lang="es" class="scroll-smooth motion-reduce:scroll-auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Compra, venta y reparación de pallets de madera en Santiago. Stock permanente, despacho a todo Chile y atención personalizada para retail, mayoristas y logística." />
+    <meta name="theme-color" content="#1B4332" />
+    <meta property="og:title" content="Pallets en Chile | Compra, Venta y Reparación" />
+    <meta property="og:description" content="Compra, venta y reparación de pallets de madera en Santiago. Stock permanente y despacho a todo Chile." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:url" content="https://palletsenchile.cl" />
+    <link rel="canonical" href="https://palletsenchile.cl" />
+    <title>Pallets en Chile | Compra, Venta y Reparación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://lh3.googleusercontent.com" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1B4332",
+              "primary-hover": "#143326",
+              accent: "#B77933",
+              "background-light": "#F5F1E8",
+              "background-dark": "#1F2933",
+              "text-main": "#1F2933",
+              "surface-white": "#FFFFFF",
+            },
+            fontFamily: {
+              display: ["Manrope", "sans-serif"],
+              body: ["Manrope", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              lg: "0.75rem",
+              xl: "1rem",
+              "2xl": "1.5rem",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark text-text-main dark:text-gray-100 antialiased font-display"
+  >
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold"
+    >Saltar al contenido principal</a>
+    <!-- Top Navigation -->
+    <header
+      class="sticky top-0 z-50 w-full bg-surface-white/90 backdrop-blur-md border-b border-gray-200 dark:bg-background-dark/90 dark:border-gray-800"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <!-- Logo -->
+          <div class="flex items-center gap-3 shrink-0">
+            <div
+              class="size-10 shrink-0 bg-primary rounded-lg flex items-center justify-center text-white"
+              aria-hidden="true"
+            >
+              <span class="material-symbols-outlined">pallet</span>
+            </div>
+            <div>
+              <p
+                class="text-xl font-bold tracking-tight text-primary dark:text-white leading-none whitespace-nowrap"
+              >
+                Pallets en Chile
+              </p>
+              <span class="text-xs text-gray-500 font-medium tracking-wide"
+                >SOLUCIONES LOGÍSTICAS</span
+              >
+            </div>
+          </div>
+          <!-- Desktop Nav -->
+          <nav class="hidden lg:flex gap-8">
+            <a
+              class="text-sm font-semibold text-text-main hover:text-primary transition-colors whitespace-nowrap"
+              href="#inicio"
+              >Inicio</a
+            >
+            <a
+              class="text-sm font-medium text-gray-600 hover:text-primary transition-colors whitespace-nowrap"
+              href="#servicios"
+              >Servicios</a
+            >
+            <a
+              class="text-sm font-medium text-gray-600 hover:text-primary transition-colors whitespace-nowrap"
+              href="#tipos"
+              >Catálogo</a
+            >
+            <a
+              class="text-sm font-medium text-gray-600 hover:text-primary transition-colors whitespace-nowrap"
+              href="#nosotros"
+              >Por qué elegirnos</a
+            >
+            <a
+              class="text-sm font-medium text-gray-600 hover:text-primary transition-colors whitespace-nowrap"
+              href="#faq"
+              >FAQ</a
+            >
+          </nav>
+          <!-- CTA Button -->
+          <div class="hidden lg:flex">
+            <a
+              class="flex items-center gap-2 bg-primary hover:bg-primary-hover text-white px-5 py-2.5 rounded-lg font-bold text-sm transition shadow-md hover:shadow-lg whitespace-nowrap"
+              href="https://wa.me/56900000000"
+            >
+              <span class="material-symbols-outlined text-[20px]" aria-hidden="true">chat</span>
+              Escríbenos por WhatsApp
+            </a>
+          </div>
+          <!-- Mobile Menu Button -->
+          <div class="lg:hidden">
+            <button
+              id="mobile-menu-btn"
+              class="text-gray-600 hover:text-primary transition-colors"
+              aria-label="Abrir menú de navegación"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <span class="material-symbols-outlined text-3xl" aria-hidden="true">menu</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu Panel -->
+      <nav
+        id="mobile-menu"
+        class="lg:hidden overflow-hidden max-h-0 opacity-0 transition-[max-height,opacity] duration-300 ease-in-out bg-surface-white/95 dark:bg-background-dark/95 backdrop-blur-md border-t border-gray-200 dark:border-gray-800"
+        aria-label="Menú principal mobile"
+      >
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex flex-col gap-2">
+          <a class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-text-main dark:text-white font-semibold hover:bg-primary/5 active:bg-primary/10 transition-colors" href="#inicio">
+            <span class="material-symbols-outlined text-primary text-xl" aria-hidden="true">home</span>
+            Inicio
+          </a>
+          <a class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-text-main dark:text-white font-semibold hover:bg-primary/5 active:bg-primary/10 transition-colors" href="#servicios">
+            <span class="material-symbols-outlined text-primary text-xl" aria-hidden="true">handyman</span>
+            Servicios
+          </a>
+          <a class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-text-main dark:text-white font-semibold hover:bg-primary/5 active:bg-primary/10 transition-colors" href="#tipos">
+            <span class="material-symbols-outlined text-primary text-xl" aria-hidden="true">inventory_2</span>
+            Catálogo
+          </a>
+          <a class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-text-main dark:text-white font-semibold hover:bg-primary/5 active:bg-primary/10 transition-colors" href="#nosotros">
+            <span class="material-symbols-outlined text-primary text-xl" aria-hidden="true">verified</span>
+            Por qué elegirnos
+          </a>
+          <a class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-text-main dark:text-white font-semibold hover:bg-primary/5 active:bg-primary/10 transition-colors" href="#faq">
+            <span class="material-symbols-outlined text-primary text-xl" aria-hidden="true">help</span>
+            FAQ
+          </a>
+          <div class="border-t border-gray-200 dark:border-gray-700 mt-2 pt-4">
+            <a
+              class="flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-white px-5 py-3.5 rounded-xl font-bold text-sm transition shadow-md w-full"
+              href="https://wa.me/56900000000"
+            >
+              <span class="material-symbols-outlined text-[20px]" aria-hidden="true">chat</span>
+              Escríbenos por WhatsApp
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main-content">
+    <!-- Hero Section -->
+    <section
+      class="relative pt-12 pb-20 lg:pt-24 lg:pb-32 overflow-hidden"
+      id="inicio"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+          <div class="flex flex-col gap-6 max-w-2xl">
+            <div
+              class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-accent font-bold text-xs w-fit border border-accent/20"
+            >
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">verified</span>
+              Líderes en Logística Industrial
+            </div>
+            <h1
+              class="text-4xl lg:text-6xl font-extrabold tracking-tight text-text-main dark:text-white leading-[1.1]"
+            >
+              Compra, venta y reparación de
+              <span class="text-primary relative inline-block">
+                pallets de madera
+                <svg
+                  class="absolute w-full h-3 -bottom-1 left-0 text-accent/30"
+                  preserveaspectratio="none"
+                  viewbox="0 0 100 10"
+                >
+                  <path
+                    d="M0 5 Q 50 10 100 5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="8"
+                  ></path>
+                </svg>
+              </span>
+              en Santiago
+            </h1>
+            <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+              Soluciones integrales para retail y mayoristas. Optimizamos tu
+              cadena de suministro con pallets nuevos, reciclados y servicios de
+              reparación. Cotiza en segundos y recibe asesoría experta.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 mt-4">
+              <a
+                class="flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-xl font-bold text-base transition shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                href="https://wa.me/56900000000"
+              >
+                <span class="material-symbols-outlined" aria-hidden="true">chat</span>
+                Cotiza ahora por WhatsApp
+              </a>
+              <a
+                class="flex items-center justify-center gap-2 bg-transparent border-2 border-primary text-primary hover:bg-primary/5 px-8 py-4 rounded-xl font-bold text-base transition-colors"
+                href="#tipos"
+              >
+                Ver tipos de pallets
+              </a>
+            </div>
+            <div
+              class="flex items-center gap-4 mt-6 text-sm text-gray-500 font-medium"
+            >
+              <div class="flex -space-x-2" aria-hidden="true">
+                <img
+                  class="size-8 rounded-full border-2 border-white dark:border-background-dark object-cover"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMDprXz-uF9jiXknndeMYUOLaD4RFYXrc9e8dQOdrwJnzfa8oGgxsuxpJOpLW4ILDGpNQmYZjofiyMCCzS7b_D2x2Pb9Q8fwxjqyD4C0BVeCh7av-eiCnk-1CzteE6FeNnV4SUluyautOtziz8qQJ1_uVAG40gkHlL-vRqQGGEDqCL1vqMt7GfL5MSqMlEITKZPCn94jmImgSQ-4XOrICGIeN3qZqDxvToiGK5IQUECNvP7Is4Lgc-FMqg7FReSQIl66FXk-VmkIFS"
+                  alt=""
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                />
+                <img
+                  class="size-8 rounded-full border-2 border-white dark:border-background-dark object-cover"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfV7wPva_ZTkkvdBoZ3nKwLw0gANV74Ier_3tlFSxKsC48Exl6eEvKmVCs2o4nAGZqQDhy4PDpV5qukCbSk9f-oNrqVSANlDQBsbQUZ6i3HSDhZ7HF56nVQ69aE_Y3MNmf-9NhyG4kGofLAl_bgnMn4dCj0OyGppjVsIfuB7m4vKbTrJx6KyZIIZIgvM0Fihe2n_Lozt0g-tYw9t2rL-MJrxW75tlDbbBzYPXe8c2xdkDzWF1q_5t4E9ONUf4gfzPCvgHmhUaeAZ_l"
+                  alt=""
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                />
+                <img
+                  class="size-8 rounded-full border-2 border-white dark:border-background-dark object-cover"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfKEkwnvey2SQNZGPCfGpsbZkql_L0rCiRXhJx2K32UBwd2p4s2lj595jafRInRvOqUZa_30C8XO38saL4_i6OH5qAlR-TeJ-dtc46tnTTT972ZIhyRk1hZFpbk2Uqai-MQW3w-PKnfiS-Be-INJHA92f5z7fYYOgGREvkuyBginlMP0TlxUKcfIWWnDlAAdEckCH9VOWo8_9G5TQ6HpSX96jq6WbtAKHHm61MnSXI2yfH3NfQ5s6cjjUQaxqswPN40GSi4EUuZHpt"
+                  alt=""
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                />
+              </div>
+              <p>
+                Más de
+                <span class="text-primary font-bold">500+ empresas</span>
+                confían en nosotros
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <div
+              class="absolute -inset-4 bg-accent/20 rounded-[2rem] blur-2xl transform rotate-3"
+            ></div>
+            <div
+              class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-surface-white dark:border-gray-700"
+            >
+              <img
+                alt="Gran bodega con pallets de madera apilados ordenadamente"
+                class="w-full h-auto object-cover aspect-[4/3]"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTMTpLts7bbTbiPUOycAHWfI3Jb8tADzvJLY9fA2GoSw8dXy5_jsXwEUk6xjKH8D615l610liB6hvLEXZzdYZTTRJ5-vt4MIyWC_A6dzPhOQtRuo5QFUeZ8QyNjgTJAdAhHh6Gx4Sd3DSNbuo2IA3iTbsZ7BWDX9CfXzGbfba6AdKNVhpxlVm1Ah6TlUOY-y2aeCNsabL66hR8jWyov6dspqt37Vy282EdQ5LTCaieewon-4EiH0h2ApSTemMvkNnKhVgIrboaRl16"
+                width="640"
+                height="480"
+                fetchpriority="high"
+              />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 text-white"
+              >
+                <p class="font-bold text-lg">Stock Disponible</p>
+                <p class="text-sm opacity-90">
+                  Despacho inmediato en Región Metropolitana
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section
+      class="py-20 bg-surface-white dark:bg-gray-900 border-t border-b border-gray-100 dark:border-gray-800"
+      id="servicios"
+      aria-labelledby="servicios-heading"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-accent font-bold tracking-wider uppercase text-sm"
+            >Nuestros Servicios</span
+          >
+          <h2
+            id="servicios-heading"
+            class="text-3xl lg:text-4xl font-extrabold text-text-main dark:text-white mt-2 mb-4"
+          >
+            Soluciones completas en Pallets
+          </h2>
+          <p class="text-gray-600 dark:text-gray-400">
+            Ofrecemos un servicio integral 360° para cubrir todas las
+            necesidades logísticas de tu empresa, desde el suministro hasta la
+            recuperación.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <div
+            class="group bg-background-light dark:bg-background-dark p-8 rounded-2xl transition hover:shadow-lg border border-transparent hover:border-primary/20"
+          >
+            <div
+              class="size-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors"
+              aria-hidden="true"
+            >
+              <span class="material-symbols-outlined text-3xl"
+                >shopping_cart</span
+              >
+            </div>
+            <h3 class="text-xl font-bold text-text-main dark:text-white mb-3">
+              Venta de Pallets
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 mb-4">
+              Pallets nuevos y usados de primera calidad (Grado A y B). Variedad
+              de medidas estándar y a pedido para todas sus necesidades de
+              carga.
+            </p>
+            <ul class="space-y-2 mb-6">
+              <li
+                class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400"
+              >
+                <span class="material-symbols-outlined text-primary text-base" aria-hidden="true"
+                  >check_circle</span
+                >
+                <span>Stock permanente</span>
+              </li>
+              <li
+                class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400"
+              >
+                <span class="material-symbols-outlined text-primary text-base" aria-hidden="true"
+                  >check_circle</span
+                >
+                <span>Despacho a todo Chile</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Service 2 -->
+          <div
+            class="group bg-background-light dark:bg-background-dark p-8 rounded-2xl transition hover:shadow-lg border border-transparent hover:border-primary/20"
+          >
+            <div
+              class="size-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors"
+              aria-hidden="true"
+            >
+              <span class="material-symbols-outlined text-3xl">payments</span>
+            </div>
+            <h3 class="text-xl font-bold text-text-main dark:text-white mb-3">
+              Compra de Pallets
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 mb-4">
+              Compramos sus pallets en desuso al mejor precio del mercado.
+              Retiramos en terreno, ayudando a liberar espacio en su bodega.
+            </p>
+            <ul class="space-y-2 mb-6">
+              <li
+                class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400"
+              >
+                <span class="material-symbols-outlined text-primary text-base" aria-hidden="true"
+                  >check_circle</span
+                >
+                <span>Pago al contado</span>
+              </li>
+              <li
+                class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400"
+              >
+                <span class="material-symbols-outlined text-primary text-base" aria-hidden="true"
+                  >check_circle</span
+                >
+                <span>Retiro programado</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Service 3 -->
+          <div
+            class="group bg-background-light dark:bg-background-dark p-8 rounded-2xl transition hover:shadow-lg border border-transparent hover:border-primary/20"
+          >
+            <div
+              class="size-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors"
+              aria-hidden="true"
+            >
+              <span class="material-symbols-outlined text-3xl">build</span>
+            </div>
+            <h3 class="text-xl font-bold text-text-main dark:text-white mb-3">
+              Reparación y Mantención
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 mb-4">
+              Servicio de reparación profesional para extender la vida útil de
+              su inventario. Recuperamos activos dañados para su
+              reincorporación.
+            </p>
+            <ul class="space-y-2 mb-6">
+              <li
+                class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400"
+              >
+                <span class="material-symbols-outlined text-primary text-base" aria-hidden="true"
+                  >check_circle</span
+                >
+                <span>Ahorro de costos</span>
+              </li>
+              <li
+                class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400"
+              >
+                <span class="material-symbols-outlined text-primary text-base" aria-hidden="true"
+                  >check_circle</span
+                >
+                <span>Sustentabilidad</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tipos de Pallets -->
+    <section
+      class="py-20 bg-background-light dark:bg-background-dark"
+      id="tipos"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4"
+        >
+          <div class="max-w-2xl">
+            <h2
+              class="text-3xl lg:text-4xl font-extrabold text-text-main dark:text-white mb-4"
+            >
+              Catálogo de Pallets
+            </h2>
+            <p class="text-gray-600 dark:text-gray-400">
+              Disponemos de las medidas más utilizadas en la industria y
+              fabricamos a medida según sus requerimientos.
+            </p>
+          </div>
+          <a
+            class="text-primary font-bold hover:underline flex items-center gap-1"
+            href="https://wa.me/56900000000"
+          >
+            Ver todos los productos
+            <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+          </a>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="bg-surface-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col group"
+          >
+            <div class="h-48 overflow-hidden relative">
+              <img
+                alt="Pallet estándar de madera 1000x1200 mm"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCh4a66kgS36UvXPxG1dCOQUHAL8U9vsXqLJogk9HXKYBW1T_7CLBCyROeGKuqHIVf2nYzg2m-KsD6d9VVH17FtaF1hYQh8s9ZnfKkyC63mJlaqYrx6Y5C5XVHfXHoKYPWZZhQ6DhdDVIf2DjeUJOum1HvYOWhYTZGVwk3qFb0MqKOLREZPvEjxMtiofI4eoA4xA4DvIAvn4Icd-iid-D-t1yWsBUZFLUgCjgfWfKR8j4-oeTgGlXmbNgX2tSqbE796SPoyw0DvDkt"
+                width="400"
+                height="192"
+                loading="lazy"
+              />
+              <div
+                class="absolute top-3 right-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded"
+              >
+                Más Vendido
+              </div>
+            </div>
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="text-lg font-bold text-text-main dark:text-white mb-1">
+                Pallet Estándar
+              </h3>
+              <p class="text-sm text-gray-500 mb-4">
+                Dimensiones: 1000 x 1200 mm
+              </p>
+              <p class="text-gray-600 dark:text-gray-400 text-sm mb-6 flex-1">
+                Ideal para supermercados y retail. Resistente, versátil y
+                compatible con la mayoría de las grúas horquilla.
+              </p>
+              <button
+                class="w-full py-3 rounded-lg border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors"
+              >
+                Solicitar cotización
+              </button>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="bg-surface-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col group"
+          >
+            <div class="h-48 overflow-hidden">
+              <img
+                alt="Pallet Euro EPAL certificado 800x1200 mm"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjDwE27exlvC4S12lzLXD8zlposaiPss4-3q5DUWRMWELc2KAgLnvjozFpzcHVGzpiJUSPFme2c2iP7Xlwb3O9wNJKjAApeA-G_onKzOCAfhB6G3mtrG5aac7g1Fb7nNi-Wwzc-Fmc3XrfR_cj36CneYVJ9W4Dq0-I5vtMqRi4HSUehruyij-SHdG8wn7kY8snbMO3RYNqglVGLUCZ6uADwYed3lCDPV-IbGbafvU7y3BkGaJ__KPryHmQyWOoMwklD5bIufIRcnSG"
+                width="400"
+                height="192"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="text-lg font-bold text-text-main dark:text-white mb-1">
+                Pallet Euro (EPAL)
+              </h3>
+              <p class="text-sm text-gray-500 mb-4">
+                Dimensiones: 800 x 1200 mm
+              </p>
+              <p class="text-gray-600 dark:text-gray-400 text-sm mb-6 flex-1">
+                Norma europea certificada. Perfecto para exportación y
+                optimización de espacios reducidos en bodega.
+              </p>
+              <button
+                class="w-full py-3 rounded-lg border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors"
+              >
+                Solicitar cotización
+              </button>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="bg-surface-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col group"
+          >
+            <div
+              class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center relative"
+            >
+              <span class="material-symbols-outlined text-6xl text-gray-300"
+                >architecture</span
+              >
+              <div class="absolute inset-0 bg-primary/5"></div>
+            </div>
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="text-lg font-bold text-text-main dark:text-white mb-1">
+                Pallets a Medida
+              </h3>
+              <p class="text-sm text-gray-500 mb-4">
+                Dimensiones: Personalizadas
+              </p>
+              <p class="text-gray-600 dark:text-gray-400 text-sm mb-6 flex-1">
+                Fabricamos pallets especiales según las necesidades de su carga.
+                Reforzados, perimetrales o desechables.
+              </p>
+              <button
+                class="w-full py-3 rounded-lg border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors"
+              >
+                Solicitar cotización
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why Us Section -->
+    <section
+      class="py-20 bg-primary text-white overflow-hidden relative"
+      id="nosotros"
+    >
+      <div
+        class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-accent/20 rounded-full blur-3xl"
+      ></div>
+      <div
+        class="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"
+      ></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 class="text-3xl lg:text-4xl font-extrabold mb-6">
+              ¿Por qué elegir Pallets en Chile?
+            </h2>
+            <p
+              class="text-primary-50 dark:text-gray-300 text-lg mb-8 leading-relaxed"
+            >
+              Somos más que un proveedor; somos su socio estratégico en
+              logística. Entendemos la urgencia de su operación y nos
+              comprometemos con la calidad y los tiempos de entrega.
+            </p>
+            <div class="space-y-4">
+              <div class="flex gap-4">
+                <div
+                  class="size-10 rounded-full bg-accent/20 flex items-center justify-center shrink-0"
+                  aria-hidden="true"
+                >
+                  <span class="material-symbols-outlined text-accent"
+                    >local_shipping</span
+                  >
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg">Muestras a domicilio</h3>
+                  <p class="text-sm text-gray-200">
+                    Llevamos muestras físicas a su empresa para que verifique la
+                    calidad antes de comprar.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div
+                  class="size-10 rounded-full bg-accent/20 flex items-center justify-center shrink-0"
+                  aria-hidden="true"
+                >
+                  <span class="material-symbols-outlined text-accent"
+                    >support_agent</span
+                  >
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg">Atención personalizada</h3>
+                  <p class="text-sm text-gray-200">
+                    Ejecutivos dedicados que entienden su rubro y le asesoran en
+                    la mejor opción costo-efectiva.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div
+                  class="size-10 rounded-full bg-accent/20 flex items-center justify-center shrink-0"
+                  aria-hidden="true"
+                >
+                  <span class="material-symbols-outlined text-accent"
+                    >inventory_2</span
+                  >
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg">Stock Garantizado</h3>
+                  <p class="text-sm text-gray-200">
+                    Capacidad de respuesta ante pedidos urgentes y grandes
+                    volúmenes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative hidden lg:block">
+            <div class="bg-white p-2 rounded-2xl shadow-2xl rotate-2">
+              <img
+                alt="Equipo de bodega inspeccionando la calidad de pallets de madera"
+                class="rounded-xl w-full h-[500px] object-cover"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgD94cpF3kBC6799e9N8EyrMitLbviY4QHHm9uBUjG2g645AonDfcvOkMB9pO2pDsXOa_FGaRSW-GqeHInKwS0EFBsOD_zJr6hthMgEdzkhnq-Q3WM9g0m_cykXbWEpd-auJmMGvhjy_8Ho043W2pyvs70CpB0xknyLgvXD7c5EPf1_NzyeMIM4fc-ckHPrP8hBOl_3j1l1qwHzHuLfBdkHmKrPl4zBGO_65Sw6JNS7f89YmNMzp4hnqxqKUYmHl4a8mNHmwMbEpku"
+                width="600"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How we work -->
+    <section class="py-20 bg-background-light dark:bg-background-dark" id="como-trabajamos">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2
+            class="text-3xl lg:text-4xl font-extrabold text-text-main dark:text-white"
+          >
+            Cómo trabajamos
+          </h2>
+          <p class="text-gray-600 mt-4">
+            Un proceso simple y transparente en 3 pasos
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 relative">
+          <!-- Connecting Line (Desktop) -->
+          <div
+            class="hidden md:block absolute top-8 left-[16%] right-[16%] h-0.5 bg-gray-300 dark:bg-gray-700 z-0"
+          ></div>
+          <!-- Step 1 -->
+          <div class="relative z-10 flex flex-col items-center text-center">
+            <div
+              class="size-16 bg-surface-white dark:bg-gray-800 rounded-full border-4 border-primary flex items-center justify-center shadow-lg mb-6"
+              aria-hidden="true"
+            >
+              <span class="material-symbols-outlined text-3xl text-primary"
+                >chat</span
+              >
+            </div>
+            <h3 class="text-xl font-bold mb-2 text-text-main dark:text-white">
+              1. Cuéntanos
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm max-w-xs">
+              Contáctanos por WhatsApp o formulario. Indícanos qué tipo de
+              pallet necesitas y la cantidad.
+            </p>
+          </div>
+          <!-- Step 2 -->
+          <div class="relative z-10 flex flex-col items-center text-center">
+            <div
+              class="size-16 bg-surface-white dark:bg-gray-800 rounded-full border-4 border-accent flex items-center justify-center shadow-lg mb-6"
+              aria-hidden="true"
+            >
+              <span class="material-symbols-outlined text-3xl text-accent"
+                >fact_check</span
+              >
+            </div>
+            <h3 class="text-xl font-bold mb-2 text-text-main dark:text-white">
+              2. Muestras &amp; Cotización
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm max-w-xs">
+              Te enviamos una cotización formal y coordinamos la entrega de
+              muestras si es necesario.
+            </p>
+          </div>
+          <!-- Step 3 -->
+          <div class="relative z-10 flex flex-col items-center text-center">
+            <div
+              class="size-16 bg-surface-white dark:bg-gray-800 rounded-full border-4 border-primary flex items-center justify-center shadow-lg mb-6"
+              aria-hidden="true"
+            >
+              <span class="material-symbols-outlined text-3xl text-primary"
+                >local_shipping</span
+              >
+            </div>
+            <h3 class="text-xl font-bold mb-2 text-text-main dark:text-white">
+              3. Despacho / Retiro
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm max-w-xs">
+              Coordinamos la logística para despachar a tu bodega o retirar tus
+              pallets en desuso.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section
+      class="py-20 bg-surface-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800"
+      id="testimonios"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2
+          class="text-3xl font-extrabold text-center text-text-main dark:text-white mb-12"
+        >
+          Clientes Satisfechos
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Review 1 -->
+          <div
+            class="bg-background-light dark:bg-background-dark p-6 rounded-xl border border-gray-100 dark:border-gray-700"
+          >
+            <div class="flex text-accent mb-4" role="img" aria-label="Calificación: 5 de 5 estrellas">
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+            </div>
+            <p class="text-gray-700 dark:text-gray-300 italic mb-6">
+              "Excelente servicio. Necesitábamos 500 pallets de urgencia para un
+              despacho al norte y cumplieron con los plazos perfectamente. Muy
+              recomendados."
+            </p>
+            <div class="flex items-center gap-3">
+              <div class="size-10 bg-gray-300 rounded-full overflow-hidden">
+                <img
+                  alt="Foto de Carlos Méndez"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzV2FYqMCIpEhJ9kakarqxmmAi8cEnHjl9NmHTF4hayYjrCbH9Klco9TddIxXfE0Yy8X2KvLuzx0bQbOsS5emOgXBa56ZFzdSLQRtu3l-zSIm_pZ8aXdV8TmXxa1GWh7M0niv8_-kxaiCSnNgK4kmC_n207AGglz6Y_v8ay3sCA4qw6194d_ma30EH7eHbUwq38TuyWBeCe1EP916UNEm0hLAJc-5HQHQz0ZPXiq_rJQR1JbYhwX3DK08e3exNeOYuCxCLf7R4G8Ty"
+                  width="40"
+                  height="40"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p class="font-bold text-sm text-text-main dark:text-white">
+                  Carlos Méndez
+                </p>
+                <p class="text-xs text-gray-500">
+                  Jefe de Bodega, Logística Norte
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Review 2 -->
+          <div
+            class="bg-background-light dark:bg-background-dark p-6 rounded-xl border border-gray-100 dark:border-gray-700"
+          >
+            <div class="flex text-accent mb-4" role="img" aria-label="Calificación: 5 de 5 estrellas">
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+            </div>
+            <p class="text-gray-700 dark:text-gray-300 italic mb-6">
+              "Compraron nuestros pallets en desuso a muy buen precio. El retiro
+              fue rápido y dejaron todo limpio. Una gran solución para nuestro
+              problema de espacio."
+            </p>
+            <div class="flex items-center gap-3">
+              <div class="size-10 bg-gray-300 rounded-full overflow-hidden">
+                <img
+                  alt="Foto de Andrea Soto"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRbPrU4m_k7T--ir6aPKOvSj59GAW3blmqXUulUa1dIHm76UtsoLVoqRX4DUfQm12yt6fBcddBb6mkDtd3UB74k_yvGNaYGsa2JYKKLrN64lfgIojj7sAAn2aO5agnpZf7RGhji23w_PnDRvFq9hk4Dv5rdGjHxGu0CbmBqjso3jOHnRlhuQu_ghpMjMfbL0H1Fzvx5oVa3VM5icTOM0NsuQHLagusvFeIOkiNNI4RHzjUZzPq5Zl4qQgyrfYDEiNKbCWzktpS9uh0"
+                  width="40"
+                  height="40"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p class="font-bold text-sm text-text-main dark:text-white">
+                  Andrea Soto
+                </p>
+                <p class="text-xs text-gray-500">
+                  Gerente de Operaciones, Retail S.A.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Review 3 -->
+          <div
+            class="bg-background-light dark:bg-background-dark p-6 rounded-xl border border-gray-100 dark:border-gray-700"
+          >
+            <div class="flex text-accent mb-4" role="img" aria-label="Calificación: 5 de 5 estrellas">
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+              <span class="material-symbols-outlined text-sm" aria-hidden="true">star</span>
+            </div>
+            <p class="text-gray-700 dark:text-gray-300 italic mb-6">
+              "La calidad de los pallets reacondicionados es sorprendente,
+              parecen nuevos. Nos ha ayudado mucho a reducir costos operativos."
+            </p>
+            <div class="flex items-center gap-3">
+              <div class="size-10 bg-gray-300 rounded-full overflow-hidden">
+                <img
+                  alt="Foto de Felipe Rojas"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA_Hq8XBwg7iXmcTVrE-3hiiAgYX1PMfXWn0Tym4D8fQ2Wg6S2JhdbGUlTlq9oW1_H4wVsr6hzZllo5ncrbJi7bAZUFa6zrUHxZGYv-K8WhsDMnIQV8HwuAcM3jLAf9fiB8BgGw2LDCsiHy0YPoGK8hC2U6HLI8iiCBO9Pn7aDNUCGk6gCXW8bB9u4b4UwcAlmXw6ie_YYeMMMN2-tRpujfn9bh08nblf12boNsqQboQ9-L80AlMeXiS1rWYAX3CyIrLq_BParq7Yo"
+                  width="40"
+                  height="40"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p class="font-bold text-sm text-text-main dark:text-white">
+                  Felipe Rojas
+                </p>
+                <p class="text-xs text-gray-500">Dueño, Transportes FR</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="py-20 bg-background-light dark:bg-background-dark" id="faq">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2
+          class="text-3xl font-extrabold text-center text-text-main dark:text-white mb-12"
+        >
+          Preguntas Frecuentes
+        </h2>
+        <div class="space-y-4">
+          <!-- FAQ 1 -->
+          <details
+            class="group bg-surface-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden"
+          >
+            <summary
+              class="flex justify-between items-center font-bold cursor-pointer p-6 list-none text-text-main dark:text-white"
+            >
+              <span>¿Cuál es el pedido mínimo de pallets?</span>
+              <span class="transition group-open:rotate-180">
+                <span class="material-symbols-outlined">expand_more</span>
+              </span>
+            </summary>
+            <div
+              class="text-gray-600 dark:text-gray-400 p-6 pt-0 leading-relaxed"
+            >
+              No tenemos un mínimo estricto, pero recomendamos pedidos
+              superiores a 50 unidades para optimizar los costos de transporte.
+              Para pedidos menores, puede consultar disponibilidad de retiro en
+              nuestra bodega.
+            </div>
+          </details>
+          <!-- FAQ 2 -->
+          <details
+            class="group bg-surface-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden"
+          >
+            <summary
+              class="flex justify-between items-center font-bold cursor-pointer p-6 list-none text-text-main dark:text-white"
+            >
+              <span>¿Hacen despacho a regiones?</span>
+              <span class="transition group-open:rotate-180">
+                <span class="material-symbols-outlined">expand_more</span>
+              </span>
+            </summary>
+            <div
+              class="text-gray-600 dark:text-gray-400 p-6 pt-0 leading-relaxed"
+            >
+              Sí, despachamos a todo Chile. Contamos con transporte propio para
+              la Región Metropolitana y alianzas estratégicas para envíos a
+              regiones.
+            </div>
+          </details>
+          <!-- FAQ 3 -->
+          <details
+            class="group bg-surface-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden"
+          >
+            <summary
+              class="flex justify-between items-center font-bold cursor-pointer p-6 list-none text-text-main dark:text-white"
+            >
+              <span>¿Compran cualquier tipo de pallet?</span>
+              <span class="transition group-open:rotate-180">
+                <span class="material-symbols-outlined">expand_more</span>
+              </span>
+            </summary>
+            <div
+              class="text-gray-600 dark:text-gray-400 p-6 pt-0 leading-relaxed"
+            >
+              Principalmente compramos pallets de medidas estándar (1000x1200) y
+              tipo Euro. Deben estar en condiciones reparables. Envíenos una
+              foto por WhatsApp para una evaluación rápida.
+            </div>
+          </details>
+          <!-- FAQ 4 -->
+          <details
+            class="group bg-surface-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden"
+          >
+            <summary
+              class="flex justify-between items-center font-bold cursor-pointer p-6 list-none text-text-main dark:text-white"
+            >
+              <span>¿Entregan factura?</span>
+              <span class="transition group-open:rotate-180">
+                <span class="material-symbols-outlined">expand_more</span>
+              </span>
+            </summary>
+            <div
+              class="text-gray-600 dark:text-gray-400 p-6 pt-0 leading-relaxed"
+            >
+              Sí, todas nuestras ventas y servicios son facturados. Somos una
+              empresa establecida (SpA).
+            </div>
+          </details>
+          <!-- FAQ 5 -->
+          <details
+            class="group bg-surface-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden"
+          >
+            <summary
+              class="flex justify-between items-center font-bold cursor-pointer p-6 list-none text-text-main dark:text-white"
+            >
+              <span>¿Tienen pallets certificados para exportación?</span>
+              <span class="transition group-open:rotate-180">
+                <span class="material-symbols-outlined">expand_more</span>
+              </span>
+            </summary>
+            <div
+              class="text-gray-600 dark:text-gray-400 p-6 pt-0 leading-relaxed"
+            >
+              Sí, contamos con pallets tratados bajo la norma NIMF 15, listos
+              para exportación.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- Final CTA -->
+    <section
+      class="py-24 bg-primary text-white text-center px-4 relative overflow-hidden"
+    >
+      <!-- Decorative Elements -->
+      <span
+        class="material-symbols-outlined text-[300px] absolute -top-20 -left-20 opacity-5 rotate-12 pointer-events-none"
+        aria-hidden="true"
+        >pallet</span
+      >
+      <span
+        class="material-symbols-outlined text-[300px] absolute -bottom-20 -right-20 opacity-5 -rotate-12 pointer-events-none"
+        aria-hidden="true"
+        >inventory</span
+      >
+      <div class="relative z-10 max-w-2xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">
+          ¿Listo para optimizar tu logística?
+        </h2>
+        <p class="text-primary-100 text-lg mb-10">
+          Cotiza hoy mismo y descubre por qué somos los líderes en pallets en
+          Santiago. Respuesta en menos de 15 minutos.
+        </p>
+        <a
+          class="inline-flex items-center gap-3 bg-white text-primary px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition shadow-xl hover:shadow-2xl hover:-translate-y-1"
+          href="https://wa.me/56900000000"
+        >
+          <span class="material-symbols-outlined text-3xl" aria-hidden="true">chat</span>
+          Hablar con un ejecutivo
+        </a>
+      </div>
+    </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800" id="contacto">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-8">
+          <div class="col-span-1 md:col-span-2">
+            <div class="flex items-center gap-2 mb-4 text-white">
+              <span class="material-symbols-outlined text-primary text-3xl" aria-hidden="true"
+                >pallet</span
+              >
+              <span class="font-bold text-xl">Pallets en Chile</span>
+            </div>
+            <p class="mb-4 max-w-sm">
+              Expertos en soluciones de madera para la industria logística.
+              Comprometidos con la calidad, la rapidez y el servicio al cliente.
+            </p>
+            <div class="flex gap-4">
+              <a
+                class="text-gray-400 hover:text-white transition-colors"
+                href="#"
+              >
+                <span class="sr-only">Instagram</span>
+                <svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  ></path>
+                </svg>
+              </a>
+              <span class="text-sm">@palletsenchile</span>
+            </div>
+          </div>
+          <div>
+            <h3
+              class="text-white font-bold mb-4 uppercase text-sm tracking-wider"
+            >
+              Enlaces
+            </h3>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a class="hover:text-primary transition-colors" href="#inicio"
+                  >Inicio</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-primary transition-colors"
+                  href="#servicios"
+                  >Servicios</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-primary transition-colors" href="#tipos"
+                  >Catálogo</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-primary transition-colors" href="#contacto"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3
+              class="text-white font-bold mb-4 uppercase text-sm tracking-wider"
+            >
+              Contacto
+            </h3>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2">
+                <span class="material-symbols-outlined text-base mt-0.5" aria-hidden="true"
+                  >location_on</span
+                >
+                <span>Av. Américo Vespucio 1234, Quilicura, Santiago</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-base" aria-hidden="true">mail</span>
+                <a
+                  class="hover:text-primary"
+                  href="mailto:contacto@palletsenchile.cl"
+                  >contacto@palletsenchile.cl</a
+                >
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-base" aria-hidden="true">call</span>
+                <a class="hover:text-primary" href="tel:+56900000000"
+                  >+56 9 0000 0000</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm"
+        >
+          <p>© 2026 Pallets en Chile SpA. Todos los derechos reservados.</p>
+          <p class="mt-2 md:mt-0">Diseñado para la industria.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Floating Action Button (Mobile Only mainly, but visible always for quick access) -->
+    <a
+      class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center animate-bounce motion-reduce:animate-none md:animate-none group"
+      href="https://wa.me/56900000000"
+      aria-label="Abrir chat de WhatsApp"
+    >
+      <svg
+        class="w-8 h-8 fill-current"
+        viewbox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+        ></path>
+      </svg>
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>
